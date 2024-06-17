@@ -47,33 +47,33 @@ upload directory : /opt/zimbra/jetty\_base/webapps/zimbra/public/
 
 **2.Access 'inject.jsp' to inject a memory backdoor into the system. After injecting, delete 'inject.jsp,' but the backdoor will still persist.**
 
-![图片](./images/1.png)
+![图片](./XPost-ReadMe/images/1.png)
 
 Successfully removed 'inject.jsp' and established a connection to the memory backdoor.
 
-![图片](./images/22.png)
+![图片](./XPost-ReadMe/images/22.png)
 
 **3.Backdoor Persistence**
 
 Prevent the memory-resident backdoor from being cleared upon restart by replacing the zimbra-license.jar plugin. Substitute the malicious zimbra-license-success.jar for the original system jar file to achieve backdoor persistence.
 
-![图片](./images/3.png)
+![图片](./XPost-ReadMe/images/3.png)
 
 **4.Clearing logs**
 
 Utilize the 'zimbraplugin ClearLog' function to erase logs of malicious JSP access.
 
-![图片](./images/4.png)
+![图片](./XPost-ReadMe/images/4.png)
 
 **5.Functional payload**
 
 Utilize specific functionalities as needed. Upon clicking the corresponding function, the payload will be sent to the server backdoor, and the corresponding payload will be executed in memory.
 
-![图片](./images/5.png)
+![图片](./XPost-ReadMe/images/5.png)
 
 **6.Traffic**
 
-![图片](./images/6.png)
+![图片](./XPost-ReadMe/images/6.png)
 
 **7.Test Version**
 
@@ -83,7 +83,7 @@ Utilize specific functionalities as needed. Upon clicking the corresponding func
 
 **1.Upload shell.jar to inject a backdoor into the target system at runtime**
 
-![图片](./images/7.png)
+![图片](./XPost-ReadMe/images/7.png)
 
 The backdoor has been successfully injected; delete shell.jar.
 
@@ -93,11 +93,11 @@ To prevent the loss of the backdoor upon system restart, modify the startup logi
 
 **3.Functional payload**
 
-![图片](./images/8.png)
+![图片](./XPost-ReadMe/images/8.png)
 
 **4.Traffic**
 
-![图片](./images/9.png)
+![图片](./XPost-ReadMe/images/9.png)
 
 **5.Test Version**
 
@@ -111,18 +111,18 @@ Upload path: /opt/atlassian/confluence/synchrony-proxy/
 
 **2.Access inject.jsp to inject a memory backdoor.**
 
-![图片](./images/10.png)
+![图片](./XPost-ReadMe/images/10.png)
 
 After successfully injecting the backdoor, delete inject.jsp.
 
 **3.Functional payload**
 
-![图片](./images/11.png)
+![图片](./XPost-ReadMe/images/11.png)
 
 **4.Traffic**
 
-![图片](./images/12.png)
+![图片](./XPost-ReadMe/images/12.png)
 
 **5.Test Version**
 
-![图片](./images/13.png)
+![图片](./XPost-ReadMe/images/13.png)
